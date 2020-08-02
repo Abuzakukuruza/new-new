@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
     "dev": "webpack-dev-server --mode development --open --watch",
+    "gh-page": "gh-pages -d dist",
     "deploy": "npm run build && scp -r ./dist/* abuzakukuruza@130.193.38.102:/home/abuzakukuruza/web-front"
   },
   "repository": {
