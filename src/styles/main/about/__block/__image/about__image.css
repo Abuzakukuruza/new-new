@@ -1,0 +1,10 @@
+@import url('./__avtor-image/about__avtor-image.css');
+.about__image {
+  margin-right: 30px;
+}
+@media all and (max-width: 768px) {
+  .about__image {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
